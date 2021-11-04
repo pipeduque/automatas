@@ -1,0 +1,42 @@
+{
+    "statesList": [
+         "C",
+         "D"
+    ],
+    "alphabet": [
+         "0",
+         "1"
+    ],
+    "transitionFunction": [
+         {
+              "state": "C",
+              "destinyStates": [
+                   {
+                        "symbol": "0",
+                        "destinationState": "C"
+                   },
+                   {
+                        "symbol": "1",
+                        "destinationState": "D"
+                   }
+              ]
+         },
+         {
+              "state": "D",
+              "destinyStates": [
+                   {
+                        "symbol": "0",
+                        "destinationState": "D"
+                   },
+                   {
+                        "symbol": "1",
+                        "destinationState": "D"
+                   }
+              ]
+         }
+    ],
+    "initialState": "C",
+    "finalStates": [
+         "D"
+    ]
+}

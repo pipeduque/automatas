@@ -1,0 +1,56 @@
+{
+     "statesList": [
+          "q0",
+          "q1",
+          "q2"
+     ],
+     "alphabet": [
+          "0",
+          "1"
+     ],
+     "transitionFunction": [
+          {
+               "state": "q0",
+               "destinyStates": [
+                    {
+                         "symbol": "0",
+                         "destinationState": "q1"
+                    },
+                    {
+                         "symbol": "1",
+                         "destinationState": "q0"
+                    }
+               ]
+          },
+          {
+               "state": "q1",
+               "destinyStates": [
+                    {
+                         "symbol": "0",
+                         "destinationState": "q1"
+                    },
+                    {
+                         "symbol": "1",
+                         "destinationState": "q2"
+                    }
+               ]
+          },
+          {
+               "state": "q2",
+               "destinyStates": [
+                    {
+                         "symbol": "0",
+                         "destinationState": "q2"
+                    },
+                    {
+                         "symbol": "1",
+                         "destinationState": "q2"
+                    }
+               ]
+          }
+     ],
+     "initialState": "q0",
+     "finalStates": [
+          "q2"
+     ]
+}
