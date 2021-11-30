@@ -4,7 +4,7 @@ PROGRAMA AUTOMATAS | Unión, Intersección, Complemento, Reverso y Estado Sumide
 Documentación Graphviz: https://graphviz.org
 
 Descargar Graphiz: 
-Versión recomendada usada en el proyecto: 4.49.2
+Versión recomendada usada en el proyecto: 2.49.2
 Link: https://gitlab.com/graphviz/graphviz/-/packages/3350737
 
 Video explicativo:
